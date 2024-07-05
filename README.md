@@ -12,7 +12,8 @@
 4) **Power BI Report (.pbix)**
    This is the final Power BI report.
 
-****Project Descriptions****
+
+*****Project Descriptions*****
 
 ***Data Overview:***
 
@@ -28,17 +29,23 @@
 ***Transformation:***
 
 **Categories:** Promoted headers.
+
 **Geography:** Promoted headers and added an index as GeoKey, as requested by the client in the BRD.
+
 **Product:** Promoted headers and removed duplicates, ensuring no duplicates in the dimension table.
+
 **Sales Rep:** Promoted headers and replaced 'ID' in the SalesRepID column by removing the prefix 'ID', aligning it with the Sales table where the ID is without the prefix.
+
 **Subcategory:** Promoted headers and replaced 'ID' in CategoryKey, aligning it with the CategoryKey column in the Categories table.
-**Sales:**
-Performed column profiling.
-Removed unnecessary columns, such as Source.Name.
-Split the Location column into Country and Town.
-Merged Sales with Geography based on 'Country' and 'Town' to derive GeoKey.
-Removed Country and Town columns, as GeoKey now identifies these.
-Updated step descriptions for all applied steps to enhance clarity and understanding.
+
+**Sales:** 
+* Performed column profiling.
+* Removed unnecessary columns, such as Source.Name.
+* Split the Location column into Country and Town.
+* Merged Sales with Geography based on 'Country' and 'Town' to derive GeoKey.
+* Removed Country and Town columns, as GeoKey now identifies these.
+
+**Updated step descriptions** in 'Applied Steps' section to enhance clarity and understanding.
 
 ***Data Modelling:***
 
