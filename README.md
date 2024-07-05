@@ -63,4 +63,5 @@ For the final report, new columns and measures were created, including:
 * Prev Qtr
 * QoQ Growth
 * MoM Growth
+
 To enhance the visual appeal of the report, a background template and page button appearances were designed in PowerPoint and integrated into Power BI.
